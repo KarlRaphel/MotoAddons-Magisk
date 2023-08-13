@@ -17,8 +17,6 @@ on_install() {
  ui_print "- 以下软件安装至/system/priv-app"
  ui_print "-- 通讯录 12.2.0.0.0030 com.android.contacts"
  ui_print "-- 电话 13.1.0.0.069 com.android.dialer"
- ui_print "-- 短信 13.1.0.0.030r com.android.messaging"
- ui_print "-- 时钟 06.0.6.43.0 com.android.deskclock"
  ui_print ""
  ui_print "- 以下软件安装至/system/app"
  ui_print "-- 日历 06.0.5.83.0 com.motorola.cn.calendar"
@@ -37,6 +35,8 @@ on_install() {
  ui_print "-- 浏览器：/system/product/app/Jelly"
  ui_print "-- 相册：/system/product/app/Gallery2"
  ui_print "-- 计算器：/system/product/app/ExactCalculator"
+ ui_print "-- 电话：/system/product/prive-app/Dialer"
+ ui_print "-- 通讯录：/system/product/prive-app/Contacts"
  ui_print ""
  ui_print "- 正在释放文件"
  unzip -o "$ZIPFILE" 'system/*' -d $MODPATH >&2
@@ -54,8 +54,6 @@ REPLACE="
 /system/product/app/Jelly
 /system/product/app/Gallery2
 /system/product/app/ExactCalculator
-/system/product/app/messaging
-/system/product/app/DeskClock
 /system/product/prive-app/Dialer
 /system/product/prive-app/Contacts
 "
