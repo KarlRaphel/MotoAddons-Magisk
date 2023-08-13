@@ -36,7 +36,7 @@ A Magisk module that flash MyUI built-in apps into your system.
 见[安装脚本](install.sh)
 
 # 下载安装
-见[Release](https://github.com/KarlRaphel/MotoAddons-Magisk/releases/tag/Magisk)  
+见[Release](https://github.com/KarlRaphel/MotoAddons-Magisk/releases)  
 国内渠道：[蓝奏云](https://wwi.lanzoup.com/b00xck76j) 密码:5fmt [123云盘](https://www.123pan.com/s/bsElVv-k8fC.html) 提取码:Cbbc  
 🟩 Core版本包含：通讯录、电话、日历  
 🟨 Main版本包含Core + 相册、录音机、计算器、指南针、便签、微件  
