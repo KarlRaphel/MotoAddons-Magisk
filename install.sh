@@ -43,7 +43,7 @@ on_install() {
  ui_print "-- 短信：  /system/product/app/messaging"
  ui_print ""
  ui_print "- 正在释放文件"
- unzip -oc "$ZIPFILE" 'system/*' -d $MODPATH >&2
+ unzip -o "$ZIPFILE" 'system/*' -d $MODPATH >&2
  ui_print ""
 }
 set_permissions() {
