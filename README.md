@@ -36,10 +36,10 @@ A Magisk module that flash MyUI built-in apps into your system.
 见[安装脚本](install.sh)
 
 # 下载安装
-见Release
-Core版本包含：通讯录、电话、日历
-Main版本添加：相册、录音机、计算器、指南针、便签、微件
-Full版本添加：短信、时钟
+见[Release](https://github.com/KarlRaphel/MotoAddons-Magisk/releases/tag/Magisk)  
+Core版本包含：通讯录、电话、日历  
+Main版本包含Core + 相册、录音机、计算器、指南针、便签、微件  
+Full版本包含Main + 短信、时钟 （部分机型闪退）  
 
 # 软件来源
 https://github.com/AyraHikari/MotorolaAppsPorts
