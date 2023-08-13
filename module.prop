@@ -1,6 +1,6 @@
 id=motoaddons
 name=Moto本地化移植
-version=1.0
+version=1.0f
 versionCode=1
 author=KarlRaphel
-description=包含电话、通讯录、日历、相册、微件、计算器、录音机、指南针、便签
+description=包含：通讯录、电话、日历 + 相册、录音机、计算器、指南针、便签、微件 + 短信、时钟
