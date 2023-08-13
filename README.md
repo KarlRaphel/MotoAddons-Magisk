@@ -6,9 +6,7 @@ A Magisk module that flash MyUI built-in apps into your system.
 
 ## 安装以下软件至 (`/system/priv-app`):  
 通讯录 12.2.0.0.0030 (`com.android.contacts`)  
-电话 13.1.0.0.069 (`com.android.dialer`)  
-短信 13.1.0.0.030r (`com.android.messaging`)  
-时钟 06.0.6.43.0 (`com.android.deskclock`)  
+电话 13.1.0.0.069 (`com.android.dialer`)   
 
 ## 安装以下软件至 (`/system/app`):
 日历 06.0.5.83.0 (`com.motorola.cn.calendar`)  
@@ -27,9 +25,14 @@ A Magisk module that flash MyUI built-in apps into your system.
 浏览器：(`/system/product/app/Jelly`)  
 相册：(`/system/product/app/Gallery2`)  
 计算器：(`/system/product/app/ExactCalculator`)  
+电话：(`/system/product/prive-app/Dialer`)  
+通讯录：(`/system/product/prive-app/Contacts`)  
 
 # 详细使用和修改说明
 见[安装脚本](install.sh)
 
 # 注意！
-若想尝试时钟、短信能否使用，请查看full分支，此分支不含这两个软件，容易闪退。
+若想尝试时钟、短信能否使用，请查看[full分支](https://github.com/KarlRaphel/MotoAddons-Magisk/tree/full)，此分支不含这两个软件，容易闪退。
+
+# 软件来源
+https://github.com/AyraHikari/MotorolaAppsPorts
