@@ -50,8 +50,7 @@ set_permissions() {
 #设置权限，基本不要去动
 }
 # 精简列表
-REPLACE="
-/system/product/app/Etar
+REPLACE="/system/product/app/Etar
 /system/product/app/Recorder
 /system/product/app/Aperture
 /system/product/priv-app/Eleven
@@ -61,5 +60,4 @@ REPLACE="
 /system/product/app/messaging
 /system/product/app/DeskClock
 /system/product/prive-app/Dialer
-/system/product/prive-app/Contacts
-"
+/system/product/prive-app/Contacts"
