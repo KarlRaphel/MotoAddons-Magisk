@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+        <default_allow_auto_run package="com.android.contacts" allowtype="hide" />
+</config>
+

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+        <allow-bg-intents package="com.android.dialer" />
+        <default_allow_auto_run package="com.android.dialer" allowtype="hide" />
+</config>
+
